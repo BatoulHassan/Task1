@@ -1,0 +1,37 @@
+.rightsLine {
+    display: flex;
+    color: #837d7db5;
+}
+.lineContainer {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.rightsLine p {
+    margin: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.rightsIcon {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.rightsLine span {
+    color: #64b9ed;
+}
+@media (max-width: 767px) {
+    .lineContainer {
+        display: unset;
+    }
+    .rightsLine p {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .rightsLine span {
+        display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+}

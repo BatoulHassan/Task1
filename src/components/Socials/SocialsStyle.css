@@ -1,0 +1,17 @@
+.socailsList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+.socailsList li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.socailsList li a {
+    text-decoration: none;
+    color:   #1e1d1de8;
+    font-weight: 500;
+}
+.socailsList .socialIcon {
+    color: gray;
+}

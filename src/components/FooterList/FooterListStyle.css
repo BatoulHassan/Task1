@@ -1,0 +1,19 @@
+.footerList{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+.footerList li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footerList li a {
+    text-decoration: none;
+    color:   #1e1d1dd1;
+    font-weight: 500;
+}
+@media (max-width: 767px) {
+    .footerList li a {
+        font-size: 14px;
+    }
+}

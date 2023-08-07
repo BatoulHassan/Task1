@@ -1,0 +1,22 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+.logoContainer .network-icon {
+    color: #64b9ed;
+}
+.logoTitle {
+    margin: 10px 5px;
+    color: #1e1d1dd6;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media (max-width: 767px) {
+    .logoContainer img {
+        width: 30px;
+        height: 30px;
+    }
+    .logoTitle {
+        font-size: 16px;
+    }
+}

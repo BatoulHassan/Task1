@@ -1,0 +1,54 @@
+.hero {
+    padding-bottom: 75px;
+}
+.hero h1 ,
+.hero p {
+    text-align: center;
+}
+.hero h1 {
+    display: block;
+}
+.hero button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: #64b9ed;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+h1.firstTitle {
+    margin-bottom: 0;
+    color: #000000e0;
+}
+h1.secondTitle {
+    margin: 0;
+    color: #64b9ed;
+}
+.hero p {
+    font-size: 14px;
+    color: #837d7dcc;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 17px;
+    }
+    h1.secondTitle {
+        margin: 10px 0;
+    }
+    .hero {
+        padding-top: 30px;
+    }
+    .hero p {
+        font-size: 12px;
+    }
+    .hero button {
+        font-size: 12px;
+    }
+}

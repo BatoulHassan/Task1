@@ -1,0 +1,18 @@
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.btnContainer {
+    display: flex;
+    align-items: center;
+}
+.btnContainer button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #1e1d1df2;
+}

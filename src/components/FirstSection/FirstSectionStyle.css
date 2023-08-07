@@ -1,0 +1,24 @@
+.firstSection {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.firstSection h1 {
+    color: #000000e0;
+}
+.firstSection .main-para {
+    font-size: 14px;
+    color: #837d7dcc;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+    .firstSection h1 {
+        font-size: 25px;
+    }
+    .firstSection .main-para {
+        font-size: 10px;
+        max-width: 300px;
+        margin: 0 auto 40px;
+    }
+}
