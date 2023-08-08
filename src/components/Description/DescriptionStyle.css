@@ -34,15 +34,15 @@
 }
 @media (max-width: 767px) {
     .descContainer {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
-        height: 350px;
-        position: relative;
+        /* height: 350px;
+        position: relative; */
         width: 90%;
     }
     .descBox {
-        position: absolute;
-        bottom: 0;
+        /* position: absolute;
+        bottom: 0; */
         width: 100%;
         max-width: 300px;
         align-items: center;
@@ -55,11 +55,11 @@
     }
     .imgContainer {
         margin-left: 0;
-        position: absolute;
-        top: 0;
+        /* position: absolute;
+        top: 0; */
         width: 100%;
     }
     .descContainer.reverse {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
