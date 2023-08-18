@@ -1,4 +1,5 @@
 .hero {
+    padding-top: 45px;
     padding-bottom: 75px;
 }
 .hero h1 ,
@@ -42,9 +43,9 @@ h1.secondTitle {
     h1.secondTitle {
         margin: 10px 0;
     }
-    .hero {
+    /* .hero {
         padding-top: 30px;
-    }
+    } */
     .hero p {
         font-size: 12px;
     }
